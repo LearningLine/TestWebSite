@@ -25,6 +25,7 @@ namespace TestWebSite
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/less/test.css",
                       "~/Content/site.css"));
         }
     }
